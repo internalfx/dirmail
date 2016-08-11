@@ -1,0 +1,30 @@
+{
+  "name": "dirmail",
+  "description": "Direct Mailer",
+  "version": "0.0.1",
+  "author": {
+    "name": "InternalFX",
+    "url": "https://github.com/internalfx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/internalfx/dirmail/dirmail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/internalfx/dirmail/issues"
+  },
+  "preferGlobal": true,
+  "license": "ISC",
+  "bin": {
+    "dirmail": "./bin/dirmail"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "lodash": "^4.14.1",
+    "minimist": "^1.2.0",
+    "nodemailer": "^2.5.0",
+    "nodemailer-hashcash": "^1.0.0"
+  }
+}
